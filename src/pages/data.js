@@ -1,4 +1,5 @@
-export const API_KEY='AIzaSyAoLyxvJ5VVKfLi6UYQ10n0USwePQyA4qI';
+export const API_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY;
+
 
 export const val_convert= (value) => {
     if (value >=1000000)
